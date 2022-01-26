@@ -7,6 +7,6 @@ package com.adri.lab1;
  * @author Cristian
  *
  */
-public class SecondClass {
+public class Sensor extends Component {
 
 }

@@ -7,7 +7,7 @@ package com.adri.lab1;
  * @author Cristian
  *
  */
-public class MainClass {
+public class Ebo {
 
 	/**
 	 * @param args
