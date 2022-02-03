@@ -11,7 +11,7 @@ package com.adri.lab1;
  */
 public class Infrared extends Sensor {
 
-	public void detectmotion() {
+	public void detectmotion() { // perform a security check when motion is detected
 		
 	}
 }
