@@ -9,11 +9,8 @@ public class Component {
 	private String manufacturer;
 	private String partid;
 	
-	public void performcalculations() {  // perform calculations to determine position, speed, obstacles
-		
-	}
-
-	public void instructions() {  // send instructions to the active components to perform duties
+	
+	public void sendinstructions() {  // send instructions to the active components to perform duties
 		
 	}
 }

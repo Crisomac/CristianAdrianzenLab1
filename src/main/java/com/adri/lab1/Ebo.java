@@ -19,9 +19,13 @@ public class Ebo {
 	/**
 	 * @param args
 	 */
-	public void move() {    // commands the robot to move via interaction with the APP
+	public void connecttoapp() {    // connects the robot to the APP to interact with the user
 		
 	}
-		
+	public void surveillance() { 	// make the robot enter the surveillance mode
 
+	}
+	public void manualcontrol () {	// make the robot enter manual control mode
+	
+	}
 }

@@ -9,7 +9,7 @@ package com.adri.lab1;
  * @author Cristian
  *
  */
-public class Infrared extends Sensor {
+public class Infrared extends AutoMove {
 
 	public void detectmotion() { // perform a security check when motion is detected
 		

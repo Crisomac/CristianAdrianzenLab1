@@ -10,21 +10,16 @@ package com.adri.lab1;
  * @author Cristian
  *
  */
-public class ToF extends Sensor {
+public class ToF extends AutoMove {
 	
 	public void calculatedistance() {  // calculates the distance minimum distance obtained from the
-		 							   // three sensors
+		 							   // three sensors.
 		
 	}
-	public void turnleft30() {  // gives the order to turn left 30° when the calculateddistance is 5 inches
-		                        // or less, and the distance of ToF1 is greater than the distance of ToF2 and
-		                        // ToF3. After turning the bot will keep going forward.
-	}
-	public void turnright30() {  // gives the order to turn right 30° when the calculateddistance is 5 inches
-                                 // or less, and the distance of ToF3 is greater than the distance of ToF1 and
-        					     // ToF2. After turning the bot will keep going forward.
-	}
-	public void keepforward() {  // gives the order to keep going forward when the calculateddistance is
-						         // greater than 5 inchesor less.
+	public void selectoperation() {  //  compares the distances of the three sensors to determine which 
+        							 //  of them will command the movement.
+}
+	public void sendresult() {  //  Send the chosen result to the IMU 
+		                                
 	}	
 }

@@ -9,9 +9,10 @@ package com.adri.lab1;
  * @author Cristian
  *
  */
-public class Microphone extends Sensor {
+public class Microphone extends AutoMove {
 
-	public void capturesound() {
+	public void detectsound() {  //  activates the robot making it make a checkup round when a sound is 
+								 //  detected
 		
 	}
 }
