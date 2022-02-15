@@ -19,6 +19,10 @@ public class Ebo {
 	/**
 	 * @param args
 	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Hello! I am here to guard your home, no need to worry, just go and have fun ;)"); // Print a message
+	}
 	public void connecttoapp() {    // connects the robot to the APP to interact with the user
 		
 	}
