@@ -16,4 +16,7 @@ public class SdCardSlot extends Active {
 	public void delete() {  // deletes information from the storage unit
 		
 	}
+	public void read () {  // reads the information stored in the SD  Card
+		
+	}
 }

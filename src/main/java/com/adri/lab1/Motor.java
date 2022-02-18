@@ -10,16 +10,20 @@ package com.adri.lab1;
  */
 public class Motor extends Active {
 	
-	public void goforward() {
+	private String type; // tells which type of motor is been used
+	private int torque; // tells how much power the motor has
+	
+	public void moveleftwheelsclockwise() {  
 		
 	}
-	public void gobackwards() {
+	public void moverightwheelscounterclockwise() {  
 		
 	}
-	public void turnleft() {
+	
+	public void moveallwheelsclockwise() {  // move forward
 		
 	}
-	public void turnright() {
+	public void moveallwheelscounterclockwise() {  // move backwards
 		
 	}
 	
